@@ -46,6 +46,10 @@ Beam is a secure file sharing application that enables private networks between 
 ## 1. Installation
 
 1. Download the Beam binary for your platform from the releases page and rename is to "beam" (UNIX) or "beam.exe" (Windows).
+   1. UNIX: make the binary executable with
+      ```bash
+      chmod +x beam
+      ```   
 2. Place the binary in a location included in your system's PATH.
    1. On Windows add the location containing the binary to the PATH manually.
    2. On Unix navigate to the location with the binary and use
@@ -129,7 +133,7 @@ You can verify the daemon is running with:
 beam status
 ```
 
-You can now proceed to section 4.
+**You can now proceed to Section 4.**
 
 
 ### Running as a Service
@@ -228,13 +232,13 @@ At this point, both torrent lists are likely empty. Let’s generate and share a
 
 ### 4.1 Torrent generation
 
-To generate a .torrent file from a local file, run:
+To generate a .torrent file from a local file or folder, run:
 
 ```bash
 beam torrent create --file filepath
 ```
 
-Replace `filepath` with the full path to your file:
+Replace `filepath` with the full path to your file or folder (`folderpath`):
 
 ```bash
 # Windows
