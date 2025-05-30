@@ -1,8 +1,6 @@
 # Beam CLI Application <!-- omit in toc -->
 
-Beam is a secure file sharing application that enables private networks between companies for sharing AI training
-content. It uses BitTorrent protocol for efficient transfers and provides end-to-end encryption to ensure your data
-remains secure.
+Beam is a secure file sharing application that enables private networks between organizations for exchanging large volumes of data—such as for AI training, media assets, or research datasets. It leverages the BitTorrent protocol for fast, scalable transfers and provides end-to-end encryption to keep your data safe and confidential.
 
 ## Table of Contents <!-- omit in toc -->
 
