@@ -562,5 +562,5 @@ You can get the torrent ID from `beam torrent info`.
 
 ## References
 
-- GitHub ID (GID) - repo missing
+- [GitHub ID (GID)](https://github.com/MyNextID/git-id)
 - [AGE file encryption](https://filippo.io/age)
