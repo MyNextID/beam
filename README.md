@@ -45,7 +45,7 @@ Beam is a secure file sharing application that enables private networks between 
 
 ## 1. Installation
 
-1. Download the Beam binary for your platform from the releases page and rename is to "beam" (UNIX) or "beam.exe" (Windows).
+1. Download the Beam binary for your platform from the [releases](./releases) page and rename is to "beam" (UNIX) or "beam.exe" (Windows).
    1. UNIX: make the binary executable with
       ```bash
       chmod +x beam
